@@ -331,7 +331,10 @@ p {
 .social-link:focus {
   background-color: var(--accent-color);
 }
+
 .social-icon {
+  width: 20px;
+  height: 20px;
   fill: var(--primary-icon-color);
 }
 .social-link:hover .social-icon,
@@ -370,6 +373,8 @@ p {
   border: 1px solid var(--accent-color);
 }
 .clients-icon {
+  width: 106px;
+  height: 60px;
   fill: var(--primary-icon-color);
 }
 .clients-link:hover .clients-icon,
