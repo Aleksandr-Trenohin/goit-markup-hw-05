@@ -40,6 +40,9 @@ img {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -165,10 +168,7 @@ p {
 }
 .mail-icon {
   margin-right: 10px;
-}
-.header-contacts .link:hover .mail-icon,
-.header-contacts .link:focus .mail-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Ситили для index.html */
